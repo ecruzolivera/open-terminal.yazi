@@ -34,6 +34,6 @@ return {
 			cmd = string.format('cd "%s" && %s', cwd, terminal)
 		end
 
-		ya.manager_emit("shell", { cmd, orphan = true })
+		ya.emit("shell", { cmd, orphan = true })
 	end,
 }
