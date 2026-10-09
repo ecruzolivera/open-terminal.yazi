@@ -7,7 +7,7 @@ spawn.
 ## Installation
 
 ```bash
-ya pkg add <your-username>/open-terminal
+ya pkg add ecruzolivera/open-terminal
 ```
 
 ## Keybinding
@@ -23,18 +23,18 @@ desc = "Open terminal in current directory"
 
 ## Supported Terminals
 
-| Terminal | Auto-detected via `$TERMINAL` |
-| --- | --- |
-| kitty | `$TERMINAL=kitty` |
-| alacritty | `$TERMINAL=alacritty` |
-| wezterm | `$TERMINAL=wezterm` |
-| foot | `$TERMINAL=foot` |
-| gnome-terminal | `$TERMINAL=gnome-terminal` |
-| konsole | `$TERMINAL=konsole` |
-| xfce4-terminal | `$TERMINAL=xfce4-terminal` |
-| tilix | `$TERMINAL=tilix` |
-| st | `$TERMINAL=st` |
-| urxvt | `$TERMINAL=urxvt` |
+| Terminal       | Auto-detected via `$TERMINAL` |
+| -------------- | ----------------------------- |
+| kitty          | `$TERMINAL=kitty`             |
+| alacritty      | `$TERMINAL=alacritty`         |
+| wezterm        | `$TERMINAL=wezterm`           |
+| foot           | `$TERMINAL=foot`              |
+| gnome-terminal | `$TERMINAL=gnome-terminal`    |
+| konsole        | `$TERMINAL=konsole`           |
+| xfce4-terminal | `$TERMINAL=xfce4-terminal`    |
+| tilix          | `$TERMINAL=tilix`             |
+| st             | `$TERMINAL=st`                |
+| urxvt          | `$TERMINAL=urxvt`             |
 
 For unsupported terminals, it falls back to `cd <dir> && <terminal>`.
 
